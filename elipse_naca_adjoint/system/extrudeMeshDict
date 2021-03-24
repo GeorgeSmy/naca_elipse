@@ -20,7 +20,7 @@ FoamFile
 //      surface : from externally read surface
 
 constructFrom patch;
-sourceCase "../naca_snappyhexmesh";
+sourceCase "../snappyhexMesh";
 sourcePatches (front);
 
 // If construct from patch: patch to use for back (can be same as sourcePatch)
